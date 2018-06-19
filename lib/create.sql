@@ -7,13 +7,13 @@ CREATE TABLE projects (
   end_date, TEXT
   );
 
-CREATE TABLE user(
+CREATE TABLE user (
   id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
 );
 
-CREATE TABLE pledge(
+CREATE TABLE pledge (
   id INTEGER PRIMARY KEY,
   ammount INTEGER
   user_id INTEGER
